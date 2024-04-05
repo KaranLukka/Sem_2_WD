@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<fieldset style="margin-right: 25%;margin-left: 25%;">
+		<form>
+	<table width="50%" align="center" cellspacing="20">
+			<caption><b>COVID-19 Vaccine Registration Form</b></caption>
+			<tr required >
+			<td>First Name</td>
+			<td><input type="text" name="Name" required></td>
+			</tr>
+			<tr required>
+				<td>Last name</td>
+				<td><input type="text" name="text" required></td>
+			</tr>
+			<tr required>
+				<td>Adhaar Number</td>
+				<td><input type="Number" name="Number" pattern="[0-9]{10}"></td>
+			</tr>
+			<tr>
+				<td>Vaccine Name</td>
+				<td><label for="Vaccine Name"></label>
+					<select name="Vaccine Name" id="Vaccine Name">
+						<option selected disabled>Please Select Vaccine Name</option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+					</select></td>
+			</tr>
+				<td>Vaccination Center Name</td>
+				<td><label for="Vaccination Center Name"></label>
+					<select name="Vaccination Center Name" id="Vaccination Center Name">
+						<option selected disabled>Please Select Vaccination Center Name</option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+					</select></td>
+			<tr>
+				<td>Date of Dose</td>
+				<td><input type="Date" name="Date of Dose"></td>
+			</tr>
+			<tr>
+				<td>Dose Number</td>
+				<td>
+					<input type="Number"></input>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type="Submit">Click Here</button>
+				<button type="Cancel">Cancel</td></button></tr>
+				</form>
+		</fieldset>
+	</table>
+</body>
+</html>

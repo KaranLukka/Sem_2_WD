@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration</title>
+</head>
+<body>
+	<h1 align="center">Student Registration</h1>
+	<fieldset><legend align="center">Personal Information</legend>
+		<form>
+			<table align="center">
+				<tr valign="center">
+					<td>Name*</td>
+					<td><input type="text" name="Name" placeholder="Enter Your Name"></td>
+					<td>Password*</td>
+					<td><input type="Password" name="Password" placeholder="Enter your Password"></td>
+				</tr>
+				<tr>
+					<td>Email*
+					</td>
+					<td colspan="3"><input style="width:98%" type="Email" name="Email" placeholder="Enter your Email">
+					</td>
+				</tr>
+				<tr>
+					<td>Mobile<br>number</td>
+					<td><input type="number" name="number"></td>
+					<td>Date of Birth</td>
+					<td><input type="date" name="DOB"></td>
+				</tr>
+				<tr>
+					<td>Gender </td><td><input type="radio" name="gender">Male <br><input type="radio" name="gender">Female
+					</td>
+					<td>Hobbies</td>
+					<td><input type="checkbox" name="hobbies">Reading<br>
+						<input type="checkbox" name="hobbies">Singing<br>
+						<input type="checkbox" name="hobbies">Cricket<br>
+						<input type="checkbox" name="hobbies">Swimming
+					</td>
+				</tr>
+				<tr>
+					<td>CGPA</td>
+					<td><input type="range" name="range" >10.00</td>
+					<td><input type="number" name="number" pattern="[1-10]" step=".01" max="10" min=".01"></td>
+				</tr>
+				<tr>
+					<td>Insert<br>Resume</td>
+					<td><input type="file" name="file" placeholder="Choose File"></td>
+				</tr><br>
+				<tr>
+					<td>LinkedIn<br>URL</td>
+					<td colspan="3"><input style="width:98%" type="text" name="URL" placeholder="Please enter URL"></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center"><input type="Submit" name="Submit"><button type="reset">Reset</button></td>
+				</tr>
+			</table>
+		</form>
+</fieldset><br><br>
+<table>
+	<tr>
+		<td>Comments</td>
+	</tr>
+	<tr>
+		<td><textarea cols="168"></textarea></td>
+	</tr>
+</table>
+</body>
+</html>

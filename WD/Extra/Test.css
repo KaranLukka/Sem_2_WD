@@ -1,0 +1,6 @@
+p,h1{
+	display: flex;
+	justify-content: center;
+	align-self: stretch;
+	color: blue;
+}

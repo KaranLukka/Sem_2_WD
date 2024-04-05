@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap form</title>
+	<link href=" ./../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+	<form class="form border border-dark">
+		<h1 class="text-center">Student Registration</h1>
+		<div class="p-3 mt-3 row">
+			<div class="col-6 text-center">FullName</div>
+			<div class="col-6 text-center"><input class="form-control" type="text"></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">Email</div>
+			<div class="col-6 text-center"><input class="form-control" type="text"></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">MobileNo</div>
+			<div class="col-6 text-center"><input class="form-control" type="text"></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">Address</div>
+			<div class="col-6 text-center"><textarea class="form-control" rows="3"></textarea></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">Nationality</div>
+			<div class="col-6 text-center"><input class="form-control" type="text"></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">Date Of Birth</div>
+			<div class="col-6 text-center"><input class="form-control" type="date"></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">Gender</div>
+			<div class="col-6 text-center">
+				<input type="radio">Male
+				<input type="radio">Female
+			</div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">Highest Degree</div>
+			<div class="col-6 text-center">
+				<select>
+					<option selected disabled>Select Degree</option>
+					<option>A+</option>
+					<option>A</option>
+					<option>B</option>
+				</select>
+			</div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">CPI</div>
+			<div class="col-6 text-center"><input type="number"></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">University</div>
+			<div class="col-6 text-center"><input type="text"></div>
+		</div>
+		<div class="p-3 row">
+			<div class="col-6 text-center">Passing Year</div>
+			<div class="col-6 text-center">
+				<select>
+					<option selected disabled>Select Your Passing Year</option>
+					<option>2010</option>
+					<option>2014</option>
+					<option>2018</option>
+				</select>
+			</div>
+		</div>
+		<div class="p-3 row">
+			<div class="d-inline-block text-center">
+				<button class="rounded" type="Submit">Submit</button>
+				<button class="rounded" type="Cancel">Cancel</button>
+			</div>
+		</div>
+	</form>
+</div>
+<script src="./../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

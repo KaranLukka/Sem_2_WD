@@ -1,0 +1,35 @@
+.Page{
+	padding-top: 20px;
+	padding-left: 10px;
+	background-color: aqua;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.Header{
+	background-color: purple;
+	color: white;
+}
+.content{
+	padding: 10px;
+	background-color: orange;
+	height: 450px;
+}
+.ent{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	margin: 10px;
+	width: 60%;
+}
+.sidebar{
+	float: right;
+	background-color: black;
+	color: white;
+	height: 30%;
+	width: 30%;
+	margin-top: 25px;
+}
+.end{
+	background-color: blue;
+	color: white;
+}

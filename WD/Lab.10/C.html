@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>C</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		.A{
+			height: 650px;
+			border-top: solid black 20px;
+			border-bottom: solid black 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.A1{
+			height: 300px;
+			width: 150px;
+			margin-top: 200px;
+			margin-right: 10px;
+			color: yellow;
+			font-size: 50px;
+		}
+		.A2{
+			float: right;
+			font-size: 30px;
+			margin-top: 5px;
+			margin-bottom: 10px;
+			padding-right: 20%;
+			
+		}
+		.B{
+			display: inline-block;
+		}
+		.head{
+			height: 100px;
+			width: 600px;
+			background-color: red;
+			color: white;
+			text-align: center;
+			padding-top: 30px;
+		}
+		.C{
+			display: inline-block;
+			margin: 10px 0px 10px 0px ;
+		}
+		.navigation{
+			height: 300px;
+			background-color: blue;
+			color: white;
+			width: 210px;
+			padding: 100px 10px 80px 10px;
+		}
+		.content{
+			padding-top: 100px;
+			height: 300px;
+			float: right;
+			background-color: yellow;
+			width: 380px;
+			color: white;
+			text-align: center;
+		}
+		.sidebar{
+			margin-bottom: 30px;
+			float: right;
+			background-color: green;
+			height: 200px;
+			width: 100px;
+			border: solid white 5px;
+			padding-top: 80px;
+		}
+		.footer{
+			background-color: skyblue;
+			text-align: center;
+			color: white;
+			padding: 10px 0px 10px 0px;
+			margin: 0px 0px 10px 0px;
+		}
+		@media (max-width: 280px){
+			.A{
+				height: 780px;
+				width: 330px;
+			}
+			.A1{
+				width: 210px;
+				margin-left: 90px;
+				font-size: 30px;
+			}
+			.A2{
+				height: 10px;
+				width: 100px;
+			}
+			.head{
+				width: 100px;
+				font-size: 30px;
+				padding-right: 100px;
+			}
+			.navigation{
+				height: 30px;
+				width: 30px;
+				font-size: 10px;
+			}
+			.content{
+				height: 30px;
+				width: 30px;
+				font-size: 10px;
+			}
+			.sidebar{
+
+			}
+			.footer{
+
+			}
+		}
+</style>
+</head>
+<body>
+	<div class="A">
+		<div class="A1 B">
+			Html<br>Website<br>Layout
+		</div>
+		<div class="A2 B">
+			<div class="head">Header</div>
+			<div class="C navigation">Navigation</div>
+			<div class="C content">Content
+				<div class="sidebar">Sidebar</div>
+			</div>
+			<div class="footer">Footer</div>
+		</div>
+	</div>
+</body>
+</html>

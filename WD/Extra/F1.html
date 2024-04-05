@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback Form</title>
+</head>
+<body>
+	<h1>My Feedback Form</h1>
+	<ul type="disc">
+		<li>Name:<input type="text" name="Name"></li>
+		<li>email:<input type="email" name="Email"></li>
+		<li>Password:<input type="Password" name="Password"></li>
+		<li>Please check all emotions that apply you:<br>
+			<ul type="disc">
+				<li>Angry:<input type="checkbox" name="emotion"></li>
+				<li>Sad:<input type="checkbox" name="emotion"></li>
+				<li>Happy:<input type="checkbox" name="emotion"></li>
+				<li>Ambivalent:<input type="checkbox" name="emotion"></li>
+			</ul><br>
+		</li>
+		<li>How satisfied were you with our service:<br>
+			<ul type="disc">
+				<li>Very Satisfied:<input type="radio" name="satisfation"></li>
+				<li>Satisfied:<input type="radio" name="satisfation"></li>
+				<li>Didn't care:<input type="radio" name="satisfation"></li>
+				<li>Dissatisfied:<input type="radio" name="satisfation"></li>
+				<li>Very Dissatisfied:<input type="radio" name="satisfation"></li>
+			</ul><br>
+		</li>
+		Further comments:<textarea></textarea>
+		<li>Bio Photo:<input type="text" name="Description"><input type="file" name="File"></li>
+		<li>Location Visited:<select >
+				<option selected disabled>Select location</option>
+				<option>Jamnagar</option>
+				<option>Rajkot</option>
+				<option>Ahemdabad</option>
+				<option>Gandhinagar</option>
+			</select>
+		</li>
+		<li><input type="Submit" name="Submit"></li>
+	</ul>
+</body>
+</html>

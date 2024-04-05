@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            FORM
+        </title>
+    </head>
+</html>
+
+<fieldset><legend>Form</legend>
+<form align="center" method="POST" action="./Table.html" target="_blank"> 
+    <input type="text" placeholder="Enter name" required><br><br><br>
+    <input type="text" placeholder="Username" required><br><br><br>
+    <input type="number" pattern="[0-9]{10}" required placeholder="Number" max="9999999999" min="0000000000" maxlength="10"><br><br>
+    Date of Birth<input type="date"><br><br>
+    Time<input type="time" ><br><br>
+    Gender
+    <input type="radio" name="gender">M
+    <input type="radio" name="gender">F<br><br><br>
+    <input type="email" placeholder="E-mail" required><br><br><br>
+    <input type="password" placeholder="Password" min="8" required><br><br><br>
+    Hobby
+    <input required type="radio" name="Hobby">D
+    <input type="radio" name="Hobby">DR
+    <input type="radio" name="Hobby">M<br><br><br>
+    <label for="Game">Choose a Game</label><br>
+    <input type="checkbox" name="Games">Cricket<br>
+    <input type="checkbox" name="Games">Kabbadi<br>
+    <input type="checkbox" name="Games">Football<br><br>
+    <label required for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+        <option selected disabled>cars</option>
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select><br><br>
+    SPI<input type="Range" min="0" max="10"><br><br>
+    COLOR<input type="color"><br><br>
+    Address<br><textarea name="Address" id="" cols="30px" rows="10px"></textarea><br><br>
+    <input type="file" name="file" placeholder="Choose a file"><br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </fieldset>
+</form>

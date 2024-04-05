@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Form</title>
+	<link href=" ./../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="border border-info border-5">
+			<div class="border border-info border-5">
+				<form class="form">
+					<div class="p-3 text-center text-muted bg-secondary-subtle border border-dark"><h2>Create Account</h2></div>
+					<div class="p-3">
+						<div class="row mt-2">
+							<div class="col-6 text-success">First Name*</div>
+							<div class="col-6 text-success">Last Name</div>
+						</div>
+						<div class="row d-flex">
+							<div class="col-6"><input class="form-control border border-dark" type="text" placeholder="enter your first name"></div>
+							<div class="col-6"><input class="form-control border border-dark" type="text" placeholder="enter your last name"></div>
+						</div>
+						<div class="row mt-2">
+							<div class="col-12 text-success">Email*</div>
+						</div>
+						<div class="row">
+							<div class="col-12"><input class="form-control border border-dark" type="text" placeholder="enter your email"></div>
+						</div>
+						<div class="row mt-2 d-flex">
+							<div class="col-6 text-success">Password*</div>
+							<div class="col-6 text-success">Confirm Password*</div>
+						</div>
+						<div class="row d-flex">
+							<div class="col-6"><input class="form-control border border-dark" type="text" placeholder="enter your password"></div>
+							<div class="col-6"><input class="form-control border border-dark" type="text" placeholder="enter your password again"></div>
+						</div>
+						<div class="row mt-2">
+							<div class="col-6 text-success">Gender</div>
+							<div class="col-6 text-success">Hobbies</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<input type="radio">Male
+								<input type="radio">Female
+							</div>
+							<div class="col-6">
+								<input type="checkbox">Music
+								<input type="checkbox">Sports
+								<input type="checkbox">Travel
+								<input type="checkbox">Movies
+							</div>
+						</div>
+						<div class="row mt-2">
+							<div class="col-6 text-success">Source of income*</div>
+							<div class="col-6 text-success">Income</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<select class="form-control border border-dark">
+									<option>Empolyed</option>
+									<option>Unempolyed</option>
+								</select>
+							</div>
+							<div class="col-6">
+								<div class="row">
+									<div class="col-6"><input class="form-range" type="range" min="5K" max="20K"></div>
+									<div class="col-1 bg-success text-white rounded">20K</div>
+								</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-6 text-success">Upload Profile Picture</div>
+								<div class="col-6 text-success">Age</div>
+							</div>
+							<div class="row">
+								<div class="col-6"><input class="text-muted" type="file"></div>
+								<div class="col-6"><input class="form-control border border-dark" type="number"></div>
+							</div>
+							<div class="row mt-2 mb-2">
+								<div class="text-success col-12">Bio</div>
+							</div>
+							<div class="row">
+								<div class="col-12"><textarea class="form-control border border-dark"></textarea></div>
+							</div>
+						</div>
+					</div>
+					<div class="mt-3 p-3 text-end text-muted bg-secondary-subtle border border-dark">
+						<button class="btn btn-success">Create</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="./../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

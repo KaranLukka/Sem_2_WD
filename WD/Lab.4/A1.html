@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<fieldset style="margin-left: 25%;margin-right: 25%;">
+		<form>
+	<table width="50%" align="center" cellspacing="20">
+			<caption><b>Student Registration</b></caption>
+			<tr required align="center">
+			<td>FullName:</td>
+			<td><input type="text" name="Name" required></td>
+			</tr>
+			<tr required align="center">
+				<td>Email:</td>
+				<td><input type="Email" name="Email" required></td>
+			</tr>
+			<tr required align="center">
+				<td>Mobile Number:</td>
+				<td><input type="Number" name="Number" pattern="[0-9]{10}"></td>
+			</tr>
+			<tr required align="center">
+				<td>Address:</td>
+				<td><textarea name="Address" cols="20" rows="10"></textarea></td>
+			</tr>
+			<tr required align="center">
+				<td>Nationality:</td>
+				<td><input type="text" name="Nationality"></td>
+			</tr>
+			<tr align="center">
+				<td>Date of Birth:</td>
+				<td><input type="Date" name="DOB"></td>
+			</tr>
+			<tr align="center">
+				<td>Gender:	</td>
+				<td><input type="radio" name="Gender">Male<input type="radio" name="Gender">Female
+			</tr>
+			<tr align="center">
+				<td>Highest Degree:</td>
+				<td><label for="Degree"></label>
+					<select name="Degree" id="Degree">
+						<option selected disabled>Select Degree</option>
+						<option>CSE</option>
+						<option>CE</option>
+						<option>ME</option>
+						<option>IT</option>
+					</select></td>
+			</tr>
+			<tr align="center">
+				<td>CPI:</td>
+				<td><input type="Number" name="Number" pattern="[0-9]{10}" max="10" min="1" step=".01"></td>
+			</tr>
+			<tr align="center">
+				<td>University:</td>
+				<td><input type="text" name="Uni. Nmae"></td>
+			</tr>
+			<tr align="center">
+				<td>Passing Year:</td>
+				<td><label for="Passing Year"></label>
+					<select name="Passing Year" id="Passing Year">
+						<option selected disabled>Select Passing Year</option>
+						<option>2021-22</option>
+						<option>2022-23</option>
+						<option>2023-24</option>
+						<option>2024-25</option>
+						<option>2025-26</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type="Submit">Submit</button>
+				<button type="Cancel">Cancel</td></button></tr>
+				</form>
+		</fieldset>
+	</table>
+</body>
+</html>
